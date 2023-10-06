@@ -72,11 +72,23 @@ console.log(licensePlate);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+cars.push({brand: "Audi", model: "R8", color: "White", trims: ["Supervalue", "Sport"]});
+console.log(cars);
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
-const justTrims = []
+const justTrims = [];
 
+console.log(cars[0].trims);
+console.log(cars[1].trims);
+console.log(cars[2].trims);
+
+for (let i = 0; i < cars.length; i++){
+  console.log(cars[i].trims[0]);
+
+  justTrims.push(cars[i].trims[0]);
+}
+console.log(justTrims)
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
