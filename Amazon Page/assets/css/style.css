@@ -1,0 +1,153 @@
+/* Your styles here */
+/* Generals Parameters */
+h2 {
+font-size: 1.5rem;
+}
+h1 {
+font-size: 2.8rem;
+}
+main {
+    padding: 40px;
+}
+body {
+    background-color: #e9edee;
+}
+a {
+    color: white;
+    
+}
+span {
+ font-size: 1.3rem;
+    color: #1c6576;
+    margin-left: 30px;
+}
+/* Header */
+#amazonContainerLogo {
+    background-color: #222f3f;
+    height: 100px;
+    width: 100%;
+   }
+#amazonLogo {
+height:60px ;
+width: ;
+margin: 20px 50px;
+}
+#navTextContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #364757;
+line-height: 50px;
+padding-left: 30px;
+}
+#navTextContainer h2 {
+    color: white;
+    display: inline-block;
+    margin: auto 10px;
+    }
+/* Main */
+/* Title Container */
+   #titleContainer {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+   #titleContainer div:first-child {
+    height: 40px;
+    background-color: #f56600;
+  line-height: 40px;
+    margin-bottom: 40px;
+   }
+#titleContainer div:first-child h2 {
+    color: white;
+    }
+#titleContainer div:nth-child(2) {
+    width: 100%;
+    background-color: #306e63;
+    padding: 60px 0;
+background-image: url(../images/bg-image.png);
+background-size: contain  ;
+}
+   #titleContainer div:nth-child(2) h1 {
+    color: white;
+    padding: 30px;
+   }
+    #titleContainer div:nth-child(2) h2 {
+        color: white;
+        }
+/* First Container */
+#firstContainer {
+    height: 100%;
+    width: 100%;
+    margin: 40px 0;
+   
+    background-color: white;
+}
+#firstContainer h2{
+    padding: 20px ;
+}
+#firstContainerSpacing {
+    padding: 0 20px 20px;
+}
+
+#firstContainerSpacing div {
+ 
+    display: inline-block;
+    margin: ;
+  
+}
+#firstContainerSpacing img{
+    height:400px ;
+    width: 312px;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 4px 5px 20px 0px #dae2e4;
+}
+
+#firstContainer div:nth-child(2) {
+margin:0 20px 0;
+}
+#firstContainer div:nth-child(3) {
+margin-right: 20px;
+}
+/* Second Container */
+#secondContainer {
+    height: 100%;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+#secondContainer h2 {
+    padding: 10px;
+}
+#secondContainer div img {
+    width: 100%;
+}
+/* Third Container */
+#thirdContainer {
+height: 100%;
+width: 100%;
+margin: 40px 0 0;
+text-align: center;
+}
+#thirdContainer h2 {
+    padding: 10px;
+}
+#thirdContainer div img {
+    width: 100%;
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #364759;
+}
+footer h2 {
+    padding: 20px;
+    
+}
+footer div {
+    background-color: #222f3f;
+    padding: 70px;
+}
+footer div img {
+    height: 80px;
+}
